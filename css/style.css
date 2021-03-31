@@ -1,0 +1,8 @@
+.bg-dark { 
+    background: transparent !important;
+    transition: 0.3s ease;
+}
+
+.bg-dark.scrolled {
+    background: #343a40 !important;
+}
