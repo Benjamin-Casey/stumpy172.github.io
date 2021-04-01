@@ -6,3 +6,12 @@
 .bg-dark.scrolled {
     background: #343a40 !important;
 }
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../assets/masthead.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

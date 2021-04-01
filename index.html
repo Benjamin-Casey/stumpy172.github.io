@@ -13,18 +13,18 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        
+
         <!-- My Styling -->
         <script src="script.js"></script>        
         <link href="css/style.css" rel="stylesheet" />
     </head>
 
     <!-- TODO: REMOVE INLINE STYLING -->
-    <body style="height:1500px">
+    <body>
         <!-- Navigation -->
-        <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top" id="navbar">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top" id="navbar">
             <!-- Branding and toggle button -->
-            <a class="navbar-brand" href="#">Navbar</a>
+            <!--            <a class="navbar-brand" href="#">Lifelight Tattoos</a>-->
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,28 +41,48 @@
         </nav>
 
         <!-- Masthead -->
-        <header>
-            
+        <header class="masthead">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-center">
+                        <h1 class="font-weight-light">Lifelight Tattoos</h1>
+                        <p class="lead">Modern artistic tattoists in Brisbane</p>
+                    </div>
+                </div>
+            </div>
         </header>
 
+
         <!-- Portfolio/tattoo gallery -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <h2>Artists</h2>
+                <div class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/masthead.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/testImage1.jpg" alt="Second slide">
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <!-- Image break -->
+        <section>
+            <h1> Yeet</h1>
+        </section>
+
+        <!-- Contact, socials -->
         <section>
 
         </section>
 
-        <!-- About section -->
-        <section>
-
-        </section>
-
-        <!-- Contact section -->
-        <section>
-
-        </section>
-
-        <!-- Contact, about, etc. -->
+        <!-- Footer info -->
         <footer>
-            
+
         </footer>
     </body>
 
