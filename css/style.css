@@ -1,4 +1,4 @@
-.bg-dark { 
+.bg-dark.navbar { 
     background: transparent !important;
     transition: 0.3s ease;
 }
@@ -8,10 +8,45 @@
 }
 
 .masthead {
-  height: 100vh;
-  min-height: 500px;
-  background-image: url('../assets/masthead.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../assets/masthead.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner {
+    /* Note: could adjust this to screen size. If at a point where the image starts messing up, change heihgt/layout */
+    height: 350px;
+    max-height: 350px;
+}
+
+.parallax {
+    /*
+    Set image and height?
+    background-image: url("");
+    */
+    background-image: url("../assets/testImage1.jpg");
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+    background-color: darkblue
+}
+
+.fa:hover {
+    opacity: 0.7;
 }
