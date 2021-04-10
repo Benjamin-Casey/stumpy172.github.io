@@ -1,3 +1,7 @@
+.navbar {
+    height: 5%;
+}
+
 .bg-dark.navbar { 
     background: transparent !important;
     transition: 0.3s ease;
@@ -28,21 +32,14 @@
     background-image: url("");
     */
     background-image: url("../assets/testImage1.jpg");
-    min-height: 500px;
+    min-height: 250px;
 
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
 }
-
-.paraImage {
-    background: rgba(255,255,255,0.3);
-    overflow: hidden;
-    height: 100%;
-    z-index: 2;
-}
-
+ 
 .btn-circle {
     width: 60px;
     height: 60px;
